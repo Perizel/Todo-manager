@@ -1,0 +1,59 @@
+.task-list-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-list-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .task-list li {
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-list li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .task-list li.completed {
+    background-color: #f2f2f2;
+    text-decoration: line-through;
+  }
+  
+  .task-list li .task-name {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .task-list li .delete-button {
+    background-color: #e74c3c;
+    border: none;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-list li .complete-button {
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

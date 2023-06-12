@@ -1,0 +1,47 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.task-item.completed {
+  background-color: #f2f2f2;
+  text-decoration: line-through;
+}
+
+.task-item .task-name {
+  flex-grow: 1;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.task-item .complete-button,
+.task-item .undo-button,
+.task-item .delete-button {
+  background-color: #3498db;
+  border: none;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px; /* Add this line */
+}
+
+.task-item .undo-button {
+  background-color: #ff6f00;
+}
+
+.task-item .complete-button svg,
+.task-item .undo-button svg,
+.task-item .delete-button svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.task-item .delete-button {
+  background-color: #e74c3c;
+}
